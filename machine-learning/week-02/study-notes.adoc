@@ -1,0 +1,53 @@
+= Machine Learning Week 1
+:icons: font
+:toc: left
+:stem: latexmath
+:numbered:
+:source-highlighter: prettify
+
+== ISSUE
+
+octave提交出错::
+! Submission failed: unexpected error: urlread: HTTP response code said error!! Please try again later.
+
+参见：
+
+http://qiita.com/junkoda/items/4fd7eb8b3920c4bb78d9[Machine Learning (Andrew Ng) の宿題を提出する]
+
+https://www.coursera.org/learn/machine-learning/discussions/vgCyrQoMEeWv5yIAC00Eog[Mentor提示]
+
+用4.0的时候需要打个补丁
+
+== NOTES
+
+
+=== 存疑
+
+. 梯度下降中，减去导数的原因仅仅是为了确定方向么？
+
+  * 还保证了每次的步长越来越小。
+
+. 如何证明J是convex function
+
+. Normal Equation中的 latexmath:[\theta=(X^{T}X)^{-1} X^{T}y]是怎么算出来的？
+
+
+=== 最终成绩
+Finally:
+
+[code]
+----
+==
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Warm-up Exercise |  10 /  10 | Nice work!
+==           Computing Cost (for One Variable) |  40 /  40 | Nice work!
+==         Gradient Descent (for One Variable) |  50 /  50 | Nice work!
+==                       Feature Normalization |   0 /   0 | Nice work!
+==     Computing Cost (for Multiple Variables) |   0 /   0 | Nice work!
+==   Gradient Descent (for Multiple Variables) |   0 /   0 | Nice work!
+==                            Normal Equations |   0 /   0 | Nice work!
+==                                   --------------------------------
+==                                             | 100 / 100 |
+==
+----
