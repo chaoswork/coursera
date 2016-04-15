@@ -55,7 +55,13 @@ latexmath:[\theta_1 := \theta_1 - \alpha \frac{1}{m} \sum\limits_{i=1}^{m}(h_\th
 
 我理解就是将latexmath:[J(\theta_0, \theta_1)=t],关于latexmath:[\theta_0,\theta_1]的函数画出来。比如如下3D plot。
 
+image::J_theta.png[J_theta]
+
 contour plot就是取Z轴上latexmath:[J=t]的横截面，切割出来的曲线就是contour.
+
+在通俗一点就是等高线。
+
+image::contour.png[contour]
 
 推导一下公式：
 

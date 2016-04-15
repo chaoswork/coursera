@@ -18,6 +18,10 @@ https://www.coursera.org/learn/machine-learning/discussions/vgCyrQoMEeWv5yIAC00E
 
 用4.0的时候需要打个补丁
 
+contour画图是黑色::
+好像是gnuplot5.0在osx上有bug，所以降为gnuplot4
+https://gist.github.com/joyhuang9473/464bc3f814fa2d07564c[gnuplot downgrade]
+
 == NOTES
 
 
