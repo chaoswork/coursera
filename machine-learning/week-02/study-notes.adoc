@@ -1,9 +1,13 @@
-= Machine Learning Week 1
+= Machine Learning Week 2
 :icons: font
 :toc: left
 :stem: latexmath
 :numbered:
 :source-highlighter: prettify
+
+不得不说，cousera的课程设计的不错，不仅讲清楚了原理，同时提供了练习题，这难道就是未来的教育模式？
+
+习题提供了单变量和多变量两种，多变量可选，下面是多变量的题解，覆盖单变量
 
 == ISSUE
 
@@ -33,8 +37,92 @@ https://gist.github.com/joyhuang9473/464bc3f814fa2d07564c[gnuplot downgrade]
 
 . 如何证明J是convex function
 
-. Normal Equation中的 latexmath:[\theta=(X^{T}X)^{-1} X^{T}y]是怎么算出来的？
+    * John Duchi的Introduction to Convex Optimization for Machine Learning
+    * https://ccjou.wordpress.com/2013/08/27/凸函數/[线代启示录]
 
+. Normal Equation中的 latexmath:[\theta=(X^{T}X)^{-1} X^{T}y]是怎么算出来的？
+    * 证明在最后
+
+
+=== Feature Normalize
+
+刚开始没有仔细阅读题目，还想着延续之前的latexmath:[x=(x-\mu)/(max(X)-min(X))],后来才发现有一句话:
+
+[quote]
+____
+the mean value of each feature is 0 and the standard deviation is 1. This is often a good preprocessing step to do when working with learning algorithms.
+____
+
+这下就基本有思路了:
+
+* 每个特征值都减去平均数，则平均数变为0
+* 每个特征值都除以方差，则方差变为1
+
+latexmath:[X_{norm} = \frac{(X - \mu)}{\sigma} ]
+
+=== Cost Function
+
+这个之前已经有公式
+
+latexmath:[J(\theta_0,\theta_1) = \frac{1}{2m}\displaystyle\sum_{i=1}^m(h_\theta(x^{(i)}) - y^{(i)})^2]
+
+转化为矩阵形式
+
+latexmath:[J(\theta)=\frac{1}{2m}(X\theta-y)^{T}(X\theta-y)]
+
+=== Gradient Descent
+
+Gradient Descent的迭代过程：
+
+假设
+
+* n=#features
+
+* m=#samples
+
+* X为mxn的矩阵
+
+* y为mx1的向量
+
+* latexmath:[\theta]为nx1的矩阵
+
+latexmath:[\theta_k := \theta_k - \alpha \frac{1}{m} \sum\limits_{i=1}^{m}(h_\theta(x^{(i)}) - y^{(i)}) x^{(i)}_{k} ]
+
+注意这种相乘然后求和的式子，最好表示为矩阵或者向量相乘的格式。
+
+上式后半部分，可以理解为误差乘以某个数
+
+从1到m，latexmath:[h_\theta(x^{(i)}) - y^{(i)}] 可以用latexmath:[X\theta-y]来表示，是一个mx1的向量。
+
+从1到m，latexmath:[x_k]是X的第k个列向量，可以用latexmath:[X_{1:n,k}]来表示，是一个mx1的向量。
+
+latexmath:[X\theta-y]和latexmath:[X_{1:n,k}]需要有一个转置和另一个相乘得到相加的效果。(latexmath:[M_{1xm}M_{mx1}=M_{1x1}])
+
+但是考虑到latexmath:[X_{1:n,k}]还有个k需要消除，而latexmath:[X\theta-y]是一个固定的mx1的矩阵。所以转置latexmath:[X_{1:n,k}]比较容易扩展。
+
+所以，latexmath:[\theta_k := \theta_k -\alpha \frac{1}{m} (X_{1:n,k})^{T}(X\theta-y)]
+
+消去k，注意到
+
+latexmath:[\begin{bmatrix} (X_{1:n,1})^T \\ (X_{1:n,2})^T \\ \vdots \\ (X_{1:n,n})^T \end{bmatrix} = X^T]
+
+所以最终可以写成 latexmath:[\theta = \theta - \frac{\alpha}{m} X^{T}(X\theta-y)]
+
+=== Normal Equation
+
+latexmath:[\theta=(X^{T}X)^{-1} X^{T}y]
+
+这个最简单，直接套公式就行。但是这个公式是怎么来的呢？
+
+当Gradient Descent不再迭代的时候，也就是导数为0的时候，这个时候是局部最优解，如果是contex function，那么就是全局最优。
+
+对应于上面latexmath:[\theta]的迭代式子中
+
+latexmath:[X^{T}(X\theta-y) = 0 \\
+X^{T}X\theta=X^{T}y \\
+\theta = (X^{T}X)^{-1}X^{T}y]
+
+http://cs229.stanford.edu/notes/cs229-notes7.pdf[Ng的css299的笔记]中还提到了其他的求导方法
 
 === 最终成绩
 Finally:

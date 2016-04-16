@@ -35,7 +35,7 @@ latexmath:[\frac{\partial}{\partial \theta_0} J(\theta_0,\theta_1) \\
 
 则对应对梯度下降公式为:
 
-latexmath:[\theta_0 := \theta_0 - \alpha \frac{1}{m} \sum\limits_{i=1}^{m}(h_\theta(x^{(i)} - y^{(i)}))]
+latexmath:[\theta_0 := \theta_0 - \alpha \frac{1}{m} \sum\limits_{i=1}^{m}(h_\theta(x^{(i)}) - y^{(i)})]
 
 
 对latexmath:[\theta_1]求导可得:
@@ -49,7 +49,7 @@ latexmath:[\frac{\partial}{\partial \theta_1} J(\theta_0,\theta_1) \\
 
 则对应对梯度下降公式为:
 
-latexmath:[\theta_1 := \theta_1 - \alpha \frac{1}{m} \sum\limits_{i=1}^{m}(h_\theta(x^{(i)} - y^{(i)})) x^{(i)} ]
+latexmath:[\theta_1 := \theta_1 - \alpha \frac{1}{m} \sum\limits_{i=1}^{m}(h_\theta(x^{(i)}) - y^{(i)}) x^{(i)} ]
 
 在Cost Function - Intuition II 中提到了contour plot.
 
