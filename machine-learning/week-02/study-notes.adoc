@@ -122,7 +122,7 @@ latexmath:[X^{T}(X\theta-y) = 0 \\
 X^{T}X\theta=X^{T}y \\
 \theta = (X^{T}X)^{-1}X^{T}y]
 
-http://cs229.stanford.edu/notes/cs229-notes7.pdf[Ng的css299的笔记]中还提到了其他的求导方法
+http://cs229.stanford.edu/notes/cs229-notes1.pdf[Ng的css299的笔记]中还提到了其他的求导方法
 
 === 最终成绩
 Finally:
