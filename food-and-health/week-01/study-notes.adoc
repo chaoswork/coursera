@@ -1,0 +1,63 @@
+= Food And Health Week 1 
+:icons: font
+:toc: left
+:stem: latexmath
+:numbered:
+:source-highlighter: prettify
+:last-update-label!:
+:nofooter:
+
+== Introduction
+
+Around the world today, people are suffering from more diet-related diseases than ever before in recent history. 
+
+The so-called Western diet has been <<implicated>> as the major contributor to our modern <<epidemics>> of disease.  We don't actually know what about the western diet is creating the problems but what we do know with a great deal of confidence is that populations who eat this diet which is normally defined as a diet high in meat high in processed foods with very little whole grains very little fruits and vegetables. The populations who eat that way have very high rates of <<chronic>> disease. 
+
+When you think about the increasing rates of <<obesity>> and <<diabetes>> you could really think of it as a <<tsunami>> wave off the coast. It's <<enormous>>.  <<Physicians>> nowadays more than ever need to advise patients about food. Which foods to eat more of or less of and why. 
+
+How to shop for, prepare, cook, enjoy healthy delicious foods. Not just nutritious fats not bio-chemistry but food.  We are living in a food environments that fails to support our health. 
+
+Taking back the control over our food preparation is essential to our long term well-being. By examining our eating behaviors and learning the skills we need to reclaim responsibility for what's in our food, we can celebrate the foods that will protect us and bring us pleasure for the rest of our lives. 
+
+== A <<Sociocultural>> History of Obesity
+
+The human body runs on food. Once, food shortage was the major concern. After the Second World War, technological advances in food production led to a new <<era>> that was characterized by an <<overabundance>> of inexpensive food, and relatively little physical activity. In the decades that followed, other socio-cultural shifts continued to contribute to the changing way we ate. Women who had previously controlled most of the average family's food preparation, now enter the workforce in significant numbers. And the processed food industry began to <<capitalize>> on our need for fast convenient food. 
+
+This meant that fewer meals for being cooked at home, and since convenient foods were generally higher in calories than home-cooked meals, the average persons caloric <<intake>> increase <<dramatically>>. 
+
+Academic studying the <<intersection>> of food and health like Michael Pollan, have written extensively about the implications of this cultural shift on the way we eat today. 
+
+To the extent, we <<outsource>> our food. First, we eat less healthy food, more salt, and fat, and sugar. But we also eat more food because processed food is often designed as <<snack>> food, and marketed to us as a way to eat continually through the day. 
+
+The changes in the way, we, as a society ate led to the emergence of obesity as a recognized chronic disease with well-defined health consequences, and medical recommendations were made to try and address this growing health crisis. 
+
+In the second half of the 20th century, a lot of attention was focused on reducing <<saturated>> fat, and total fat in our diets. And the processed food industry responded by giving us what we wanted. But, they still had a vested interest in selling their products, so they found other ways to make the reduced fat products taste good. 
+
+One way they did this was by adding significantly more sugar, and other forms of sugar, like corn <<syrup>> to almost everything we ate. This not only made the reduced fat foods more appealing, but it also increased their shelf life. So the food industry had a huge <<incentive>> to add corn syrup, and other sweeteners to packaged foods. The resulting increase in our intake of simple sugars fueled our modern epidemics of obesity and diabetes. These shifts in our food <<consumption>> patterns have led us to a point in history where our physiological adaptation, our ability to store energy as fat, has become <<maladaptive>>. The balance between food availability and energy expenditure has been <<disrupted>>, and its left us with an <<exponential>> increase in the <<incidence>> of obesity over the past 60 years. An epidemic that the World Health Organization has labeled a worldwide public health crisis. 
+
+[bibliography]
+
+- [[[implicated]]]  If someone or something is implicated in a crime or a bad situation, they are involved in it or responsible for it.
+- [[[epidemics]]] a widespread occurrence of an infectious disease in a community at a particular time: a flu epidemic.
+- [[[chronic]]] a chronic illness or chronic pain is serious and lasts for a long time. A serious illness or pain that lasts only for a short time is described as acute
+- [[[obesity]]] a condition in which someone is too fat in a way that is dangerous for their health
+- [[[diabetes]]] a serious medical condition in which your body does not produce enough insulin to reduce the amount of sugar in the blood
+- [[[tsunami]]] a very large wave or series of waves caused when something such as an earthquake moves a large quantity of water in the sea
+- [[[enormous]]] very large in size or quantity
+- [[[Physicians]]] a person qualified to practise medicine, especially one who specializes in diagnosis and medical treatment as distinct from surgery. our family physician.
+- [[[era]]]   a period of time that has a particular quality or character
+- [[[overabundance]]]  abundance:  a very large quantity of something
+- [[[capitalize]]] business to sell something you own for money that you need
+- [[[intake]]]  the amount of something that you eat or drink
+- [[[dramatically]]]  sudden and surprising or easy to notice
+- [[[intersection]]]  a place where roads, lines etc join or cross each other
+- [[[outsource]]]  If a company outsources work or things, it pays workers from outside the company to do the work or supply the things.
+- [[[snack]]]  a small amount of food that you eat between meals
+- [[[saturated]]]  completely filled with things or people
+- [[[syrup]]]  a sweet liquid made from sugar and water
+- [[[incentive]]]  something that makes you want to do something or to work harder, because you know that you will benefit by doing this
+- [[[consumption]]] the use of something such as fuel or energy, or the amount that people use
+- [[[maladaptive]]]
+- [[[disrupted]]] interrupt
+- [[[exponential]]] increasing or growing very fast
+- [[[incidence]]]  the number of cases of an illness or a medical condition in a particular place, group, or situation

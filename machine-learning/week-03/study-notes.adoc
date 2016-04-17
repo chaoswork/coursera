@@ -1,0 +1,15 @@
+= Machine Learning Week 3
+:icons: font
+:toc: left
+:stem: latexmath
+:numbered:
+:source-highlighter: prettify
+
+== ISSUE
+
+. 为什么lr的最小二乘损失函数是non-convex的。画出其图像
+. cost function = -log(1-y )
+
+
+== NOTES
+
