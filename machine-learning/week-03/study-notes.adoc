@@ -9,7 +9,11 @@
 
 . 为什么lr的最小二乘损失函数是non-convex的。画出其图像
 . cost function = -log(1-y )
-
+. 为什么latexmath:[\theta]小了，就不over fitting?
 
 == NOTES
 
+
+http://www.krizka.net/2009/11/06/creating-animations-with-octave/[octive绘制gif]
+
+image::reg.gif[decision boundary]
